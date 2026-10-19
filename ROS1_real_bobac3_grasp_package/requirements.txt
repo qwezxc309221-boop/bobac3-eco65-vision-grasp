@@ -1,0 +1,10 @@
+# ROS1 packages (rospy, cv_bridge, rm_msgs) come from the robot's ROS installation.
+# Install torch from the CPU wheel index on machines without CUDA:
+#   pip install torch==2.0.0 torchvision==0.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.0.0
+torchvision==0.15.0
+ultralytics>=8.3
+numpy
+scipy
+pillow
+opencv-python

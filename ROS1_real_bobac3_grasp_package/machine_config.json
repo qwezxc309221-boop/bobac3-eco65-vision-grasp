@@ -1,0 +1,22 @@
+{
+  "camera_serial": "HK100RB6513M2B705",
+  "camera_namespace": "bobac3_arm",
+  "arm_host": "192.168.20.18",
+  "arm_port": 8080,
+  "host_udp_ip": "192.168.20.100",
+  "realtime_push_port": 8089,
+  "speed": 0.1,
+  "gripper_force": 80,
+  "gripper_close": 8,
+  "weights_dir": "/home/bobac3/real_ws/install/yoloe_grasp/weights",
+  "src_dir": "/home/bobac3/real_ws/src",
+  "logs_dir": "/home/bobac3/real_ws/logs",
+  "calib_offset_file": "/home/bobac3/real_ws/config/calib_offset.json",
+  "target_file": "/home/bobac3/real_ws/logs/grasp_target.json",
+  "poses": {
+    "PHOTO_HOME_DEG": [-1.001, -0.042, -24.190, -65.808, 90.000, -0.958],
+    "PHOTO_HOME_XYZ": [-0.2956, -0.0537, 0.5618],
+    "INTER_DEG": [-0.3209, -13.3728, -48.3977, -23.0787, 90.0231, -0.2807],
+    "INTER_XYZ": [-0.4746, -0.0563, 0.4596]
+  }
+}
